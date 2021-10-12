@@ -1,0 +1,797 @@
+main{
+    width: calc(100% - 273.92px);
+    position: relative;
+    float: right;
+    min-height: auto!important;
+    @media(max-width:1213px){
+        width: calc(100% - 230px);
+    }
+    @media(max-width:768px){
+        width: 100%;
+    }
+    .orderfillout-container{
+        margin: 118px auto 100px;
+        width: 72%;
+        @media(max-width:1229px){
+            width: 75%;
+        }
+
+        @media(max-width:768px){
+            width: 87.5%;
+            margin: 20px auto 0px;
+        }
+        .shop-heading{
+            letter-spacing: 1px;
+            font-size: 32px;
+            margin-bottom: 50px;
+            display: flex;
+            align-items: center;
+            @media(max-width:768px){
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+            .shop-heading-text{
+                display: flex;
+                align-items: center;
+                color: #120561;
+                letter-spacing: 2px;
+                font-weight: 800;
+                margin-right: 25px;
+                @media(max-width:768px){
+                    margin-right: 10px;
+                }
+                .shop-heading-box{
+                    background-color: #120561;
+                    margin-top: 1px;
+                    margin-right: 20px;
+                    width: 14px;
+                    height: 28px;
+                    @media(max-width:768px){
+                        width: 8px;
+                        height: 16px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .shop-more{
+                color: #A09BC0;
+                font-size: 32px;
+                letter-spacing: 2px;
+                font-weight: 800;
+                @media(max-width:845px){
+                    margin-left: 5px;
+                    letter-spacing: 1px;
+                }
+                @media(max-width:768px){
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    padding-top: 1px;
+                    margin-left: 0px;
+                }
+                img{
+                    margin-right: 25px;
+                    padding-bottom: 5px;
+                    @media(max-width:768px){
+                        margin-right: 10px;
+                        width: 7.5%;
+                        padding-bottom: 3px;
+                    }
+                }
+            }
+        }
+        .my-order-area{
+            width: 100%;
+            font-size: 18px;
+            letter-spacing: 2px;
+            color: #4D4D4D;
+            margin-bottom: 60px;
+            @media(max-width:768px){
+                font-size: 14px;
+            }
+            .my-order-heading{
+                letter-spacing: 1px;
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 35px;
+
+                @media(max-width:768px){
+                    margin-bottom: 15px;
+                    font-size: 16px;
+                }
+                .my-order-heading-icon{
+                    margin-right: 16px;
+                }
+                .my-order-heading-text{
+                    align-items: center;
+                    color: #120561;
+                    font-weight: 800;
+                    margin-right: 20px;
+                    @media(max-width:768px){
+                        margin-right: 17px;
+                        padding-top: 5px;
+                    }
+                }
+                .my-order-heading-message{
+                    height: 12px;
+                    font-size: 14px;
+                    display: flex;
+
+                    @media(max-width:768px){
+                        font-size: 12px;
+                    }
+                    input[type="checkbox"]{
+                        display: none;
+                    }
+                    input[type="checkbox"] + label {
+                        width: 14px;
+                        height: 14px;
+                        margin-top: 2.5px;
+                        margin-right: 5px;
+                        outline: #4D4D4D solid 1px;
+                        @media(max-width:768px){
+                            width: 12px;
+                            height: 12px;
+                        }
+                    }
+                    input[type="checkbox"]:checked + label {
+                        background: url("../img/checked.png") center no-repeat;
+                        @media(max-width:768px){
+                            background-size: 85%;
+                        }
+                    }
+                }
+            }
+            .my-order-menu-finished-area{
+                margin-bottom: 60px;
+                @media(max-width:768px){
+                    display: none;
+                }
+                .table{
+                    position: relative;
+                }
+                .table tr.my-order-menu-item{
+                    height: 60px;
+                    text-align: center;
+                    font-size: 18px;
+                    background-color: #EAEAEA;
+                    border-top: #A8A8A8 solid 1px;
+                    letter-spacing: 1px;
+                    @media(max-width:1140px){
+                        font-size: 16px;
+                    }
+                }
+                .table tr.my-order-menu-list{
+                    height: 100px;
+                    text-align: center;
+                    font-size: 18px;
+                    border-top: #A8A8A8 solid 1px;
+                    border-bottom: #A8A8A8 solid 1px;
+                    letter-spacing: 2px;
+                    @media(max-width:1140px){
+                        font-size: 16px;
+                    }
+                }
+                .table th{
+                    border: none;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                }
+                .table td{
+                    border: none;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                }
+                .table td.order-closed{
+                    position: absolute;
+                    padding-top: 65px;
+                    right: 10px;
+                    .order-closed-btn{
+                        width: 18px;
+                        height: 18px;
+                        background-repeat: no-repeat;
+                        background-image: url("../img/closed.png");
+                    }
+                }
+                .table th.order-commodity{
+                    padding-right: 30px;
+                    @media(max-width:1563px){
+                        padding-right: 0px;
+                    }
+
+                }
+                .table td.order-commodity{
+                    padding-right: 80px;
+                    text-align: left;
+                    // @media(max-width:1623px){
+                    //     padding-right: 40px;
+                    // }
+                    @media(max-width:1290px){
+                        padding-right: 30px;
+                    }
+                    @media(max-width:1050px){
+                        padding-right: 0px;
+                    }
+                }
+                .table th.order-commodity,.table td.order-commodity{
+                    width: 380px;
+                    display: inline-block;
+                    text-overflow: ellipsis;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient:vertical;
+                    white-space : nowrap;
+                    overflow : hidden;
+                    
+                    // @media(max-width:1140px){
+                    //     width: 150px;
+                    // }
+                    @media(max-width:1344px){
+                        width: 340px;
+                    }
+                    @media(max-width:1290px){
+                        width: 275px;
+                    }
+                    @media(max-width:1050px){
+                        width: 200px;
+                    }
+                    @media(max-width:940px){
+                        width: 120px;
+                        padding-right: 0;
+                        white-space: initial;
+                    }
+                }
+                .table th.order-amount,.table td.order-amount{
+                    width: 260px;
+
+                    // @media(max-width:1404px){
+                    //     width: 300px;
+                    // }
+                    @media(max-width:1271px){
+                        padding-right: 0px;
+                        // padding-left: 20px;
+                    }
+                    @media(max-width:1290px){
+                        width: 280px;
+                        padding-left: 0px;
+                    }
+                    @media(max-width:940px){
+                        width: 350px;
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                }
+                .table th.order-price,.table td.order-price{
+                    width: 187px;
+                    @media(max-width:1140px){
+                        padding-right: 0px;
+                    }
+                    @media(max-width:940px){
+                        width: 150px;
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                }
+                .table th.order-total,.table td.order-total{
+                    width: 225px;
+                    @media(max-width:1140px){
+                        padding-right: 0px;
+                    }
+                    @media(max-width:940px){
+                        width: 150px;
+                        padding-left: 0;
+                    }
+                }
+                .table td.order-amount{
+                    padding-left: 20px;
+                    @media(max-width:1476px){
+                        padding-left: 10px;
+                    }
+                    @media(max-width:1290px){
+                        padding-left: 0px;
+                    }
+                }
+                .table td.order-amount,.table td.order-price,.table td.order-total{
+                    padding-top: 55px;
+                }
+
+                .table td.order-price,.table td.order-total{
+                    padding-top: 65px;
+                    padding-left: 0px;
+                    padding-right: 30px;
+                    @media(max-width:1140px){
+                        padding-right: 15px;
+                    }
+                }
+                .shop-img{
+                    width: 100px;
+                    height: 120px;
+                    object-fit: cover;
+                    border-radius: 5px;
+                    margin-right: 60px;
+
+                    // @media(max-width:1404px){
+                    //     margin-right: 35px;
+                    // }
+                    @media(max-width:1344px){
+                        margin-right: 20px;
+                    }
+                    @media(max-width:1050px){
+                        margin-right: 10px;
+                    }
+                }
+                .qty {
+                    width: 75px;
+                    height: 45px;
+                    text-align: left;
+                    padding: 0 12px;
+                    border: 1px solid #4E4E4E;
+                    @media(max-width:1476px){
+                        width: 50px;
+                        padding: 0 6px;
+                    }
+                    @media(max-width:896px){
+                        width: 40px;
+                    }
+                }
+                input.qtyplus{
+                    width: 25px;
+                    height: 35px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    @media(max-width:1476px){
+                        width: 15px;
+                    }
+                    @media(max-width:940px){
+                        width: 10px;
+                    }
+                }
+                input.qtyminus{
+                    width: 25px;
+                    height: 35px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    @media(max-width:1476px){
+                        width: 15px;
+                    }
+                    @media(max-width:940px){
+                        width: 10px;
+                    }
+                }
+            }
+            .my-order-menu-finished-phone-area{
+                display: none;
+                @media(max-width:768px){
+                    display: block;
+                }
+                .my-order-menu-finished-phone{
+                    padding-top: 18px;
+                    font-size: 18px;
+                    text-align: center;
+                    border: #A8A8A8 solid 1px;
+                    letter-spacing: 2.5px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    position: relative;
+                    
+                    .order-closed-btn{
+                        width: 18px;
+                        height: 18px;
+                        background-repeat: no-repeat;
+                        background-image: url("../img/closed.png");
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                    }
+                    .shop-img{
+                        border-radius: 5px;
+                        margin-bottom: 18px;
+                    }
+                    .order-commodity{
+                        margin-bottom: 8px;
+                    }
+                    .order-amount{
+                        font-size: 14px;
+                        margin-bottom: 16px;
+                    }
+                    .order-price, .order-total{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 115px;
+                        font-size: 14px;
+                        margin: 0 auto;
+                    }
+                    .order-price{
+                        margin-bottom: 18px;
+                        .order-title{
+                            width: 35px;
+                        }
+                    }
+                    .order-total{
+                        height: 40px;
+                        padding-top: 10px;
+                        .order-title{
+                            width: 35px;
+                        }
+                    }
+                    .bg{
+                        background-color: #AFAFAF;
+                    }
+                    .qty {
+                        width: 130px;
+                        height: 35px;
+                        text-align: center;
+                        padding: 0 12px;
+                        border: 1px solid #4E4E4E;
+                    }
+                    input.qtyplus{
+                        width: 25px;
+                        height: 35px;
+                        font-size: 18px;
+                        font-weight: 1000;
+                    }
+                    input.qtyminus{
+                        width: 25px;
+                        height: 35px;
+                        font-size: 24px;
+                        font-weight: 1000;
+                    }
+                }
+            }
+            .my-order-information-area{
+                width: 100%;
+                display: flex;
+                @media(max-width:1199px){
+                    display: block;
+                }
+                .my-order-content{
+                    margin-left: 45px;
+                    @media(max-width:1199px){
+                        margin-left: 0px;
+                    }
+                }
+                .my-order-sending{
+                    .my-order-content{
+                        .my-order-name{
+                            display: flex;
+                            @media(max-width:1911px){
+                                display: block;
+                            }
+                        }
+                        .my-order-phone-number{
+                            input{
+                                margin-left: 18px;
+                                @media(max-width:1911px){
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                        .my-order-address{
+                            display: flex;
+                            @media(max-width:1911px){
+                                display: block;
+                            }
+                            input{
+                                margin-bottom: 80px;
+                                @media(max-width:768px){
+                                    margin-bottom: 40px;
+                                }
+                            }
+                        }
+                        input{
+                            margin-left: 24px;
+                            @media(max-width:1911px){
+                                margin-left: 0px;
+                            }
+                        }
+                    }
+                }
+                .my-order-payment{
+                    .my-order-payment-method{
+                        width: 100%;
+                        .flex{
+                            width: 100%;
+                            span{
+                                width: 100px;
+                            }
+                            form{
+                                width: 100%;
+                                select#methods{
+                                    width: 89%;
+                                    height: 34px;
+                                    margin-left: 34px;
+                                    margin-bottom: 30px;
+                                    color: #7F7F7F;
+                                    font-size: 16px;
+                                    letter-spacing: 1px;
+                                    border: none;
+                                    outline: #4D4D4D solid 1px;
+                                    padding: 0 15px;
+                                    &:focus{
+                                        outline: #E0C551 solid 2px;
+                                    }
+                                    @media(max-width:1911px){
+                                        width: 100%;
+                                        margin-top: 15px;
+                                        margin-left: 0px;
+                                    }
+                                    @media(max-width:768px){
+                                        display: block;
+                                        margin-bottom: 15px;
+                                    }
+                                }
+                                select {
+                                    appearance: none;
+                                    -moz-appearance: none;
+                                    -webkit-appearance: none;
+                                    background: url("../img/option.png") no-repeat 97.5% center transparent;
+                                }
+                            }
+                        }
+                    }
+                    .my-order-discount-number{
+                        input{
+                            margin-left: 32px;
+                            margin-bottom: 46px;
+                            @media(max-width:1911px){
+                                margin-left: 0px;
+                            }
+                            @media(max-width:768px){
+                                margin-bottom: 40px;
+                            }
+                        }
+                    }
+                    .my-order-discount-check{
+                        position: relative;
+                        .discount-check{
+                            width: 200px;
+                            height: 40px;
+                            position: absolute;
+                            right: 0;
+                            text-align: center;
+                            letter-spacing: 5px;
+                            margin-bottom: 30px;
+                            color: #E0C551;
+                            background-color: #FFFFFF;
+                            outline: #E0C551 solid 1px;
+                            &:hover{
+                                transition: 0.5s ease-in-out;
+                                background-color: #E0C551;
+                                color: #FFFFFF;
+                            }
+                            @media(max-width:1199px){
+                                position: static;
+                                margin-left: calc(50% - 100px);
+                            }
+                        }
+                    }
+                }
+                .my-order-receipt{
+                    @media(max-width:1199px){
+                        margin-bottom: 35px;
+                    }
+                    .my-order-receipt-editor{
+                        margin-bottom: 80px;
+                        @media(max-width:768px){
+                            margin-bottom: 40px;
+                        }
+                    }
+                    .my-order-receipt-company,.my-order-receipt-editor{
+                        input{
+                            margin-left: 30px;
+                            @media(max-width:1911px){
+                                margin-left: 0px;
+                            }
+                        }
+                    }
+                }
+                .my-order-information{
+                    line-height: 1;
+                    font-size: 16px;//字體改成16，與訂單完成頁不同(0911改)
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    margin-right: 10px;
+                    margin-bottom: 80px;
+                    margin-top: 125px;//與付款資訊同個高度(0911改)
+                    @media(max-width:1199px){
+                        align-items: center;
+                    }
+                    @media(max-width:768px){
+                        width: 250px;
+                        position: static;
+                        margin: 0 auto;
+                        font-size: 14px;
+                        margin-bottom: 40px;
+                    }
+                    div{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .order-total,.shipping,.discount-number,.discount-total,.final-total{
+                        margin-bottom: 24px;
+                        @media(max-width:768px){
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .discount-total{
+                        margin-bottom: 65px;
+                        @media(max-width:768px){
+                            margin-bottom: 24px;
+                        }
+                    }
+                    .final-total{
+                        .order-content{
+                            color: #4D4D4D;
+                        }
+                    }
+                    .order-title{
+                        width: 80px;
+                        color: #4D4D4D;
+                        font-weight: 600;
+                        letter-spacing: 4px;
+                        margin-right: 8px;
+                    }
+                    .order-total,.shipping,.final-total{
+                        .NT{
+                            margin-left: 30px;
+                        }
+                    }
+                    .discount-total{
+                        .NT{
+                            margin-left: 22px;
+                            @media(max-width:768px){
+                                margin-left: 23px;
+                            }
+                        }
+                    }
+                    .order-content{
+                        width: 150px;
+                        text-align: right;
+                        color: #808080;
+                        letter-spacing: 2px;
+                        @media(max-width:768px){
+                            width: 120px;
+                        }
+                        .price{
+                            margin-left: auto;
+                        }
+                    }
+                }
+                .my-order-check{
+                    display: flex;
+                    justify-content: flex-end;
+                    @media(max-width:1699px){
+                        width: 200px;
+                        display: block;
+                        margin-left: calc(100% - 200px);
+                    }
+                    @media(max-width:1199px){
+                        width: 424px;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                    @media(max-width:768px){
+                        width: 200px;
+                    }
+                    .pay{
+                        width: 200px;
+                        height: 40px;
+                        text-align: center;
+                        letter-spacing: 5px;
+                        margin-bottom: 30px;
+                        color: #E0C551;
+                        background-color: #FFFFFF;
+                        outline: #E0C551 solid 1px;
+                        margin-right: 15px;
+                        &:hover{
+                            transition: 0.5s ease-in-out;
+                            background-color: #E0C551;
+                            color: #FFFFFF;
+                        }
+                        @media(max-width:768px){
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .back{
+                        width: 200px;
+                        height: 40px;
+                        text-align: center;
+                        letter-spacing: 5px;
+                        margin-bottom: 30px;
+                        color: #E0C551;
+                        background-color: #FFFFFF;
+                        outline: #E0C551 solid 1px;
+                        &:hover{
+                            transition: 0.5s ease-in-out;
+                            background-color: #E0C551;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+                input{
+                    width: 76%;
+                    height: 34px;
+                    padding-left: 16px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    outline: #4D4D4D solid 1px;
+                    margin-bottom: 30px;
+                    &:focus{
+                        outline: #E0C551 solid 2px !important;
+                    }
+                    @media(max-width:1911px){
+                        width: 100%;
+                        margin-left: 0px;
+                        margin-top: 10px;
+                    }
+                    @media(max-width:768px){
+                        margin-bottom: 15px;
+                    }
+                }
+                input[placeholder]{
+                    font-size: 16px;
+                    color: #7F7F7F;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    .col-md-12.col-xl-6{
+        @media(max-width:768px){
+            padding: 0;
+        }
+    }
+    .space{
+        display: contents;
+        @media(max-width:768px){
+            display: none;
+        }
+    }
+    .flex{
+        display: flex;
+        @media(max-width:1911px){
+            display: block;
+        }
+    }
+    
+}
+button{
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+.div-shadow{
+    box-shadow: 0 .1rem 1rem rgba(0,0,0,.15);
+    @media (max-width:768px) {
+        box-shadow: none;
+    }
+}
+.padding-left{
+    padding-left: 0;
+    @media(max-width:1199px){
+        padding-right: 0;
+    }
+}
+.padding-right{
+    padding-right: 0;
+    @media(max-width:1199px){
+        padding-left: 0;
+    }
+}
+.text{
+    width: 80px;
+    text-align-last: justify;
+    @media (max-width:768px) {
+        width: 32px;
+        text-align-last: auto;
+    }
+}
+.text-flex{
+    display: flex;
+}

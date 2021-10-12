@@ -1,0 +1,527 @@
+main {
+  width: calc(100% - 273.92px);
+  position: relative;
+  float: right;
+  min-height: auto !important;
+}
+
+@media (max-width: 1213px) {
+  main {
+    width: calc(100% - 230px);
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+}
+
+main .orderfininshed-container {
+  margin: 118px auto 100px;
+  width: 72%;
+}
+
+@media (max-width: 1229px) {
+  main .orderfininshed-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .orderfininshed-container {
+    margin-bottom: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container {
+    width: 87.5%;
+    margin: 20px auto 400px;
+  }
+}
+
+@media (max-width: 499px) {
+  main .orderfininshed-container {
+    margin: 20px auto 200px;
+  }
+}
+
+main .orderfininshed-container .shop-heading {
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .shop-heading {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+
+main .orderfininshed-container .shop-heading .shop-heading-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #A09BC0;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .shop-heading .shop-heading-text {
+    margin-right: 10px;
+  }
+}
+
+main .orderfininshed-container .shop-heading .shop-heading-text .shop-heading-box {
+  background-color: #120561;
+  margin-top: 1px;
+  margin-right: 20px;
+  width: 14px;
+  height: 28px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .shop-heading .shop-heading-text .shop-heading-box {
+    width: 8px;
+    height: 16px;
+    margin-right: 10px;
+  }
+}
+
+main .orderfininshed-container .shop-heading .shop-more {
+  color: #120561;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+@media (max-width: 845px) {
+  main .orderfininshed-container .shop-heading .shop-more {
+    margin-left: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .shop-heading .shop-more {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    margin-left: 0px;
+  }
+}
+
+main .orderfininshed-container .shop-heading .shop-more img {
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .shop-heading .shop-more img {
+    margin-right: 10px;
+    width: 7.5%;
+    padding-bottom: 3px;
+  }
+}
+
+main .orderfininshed-container .my-order-area {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #4D4D4D;
+  margin-bottom: 60px;
+}
+
+main .orderfininshed-container .my-order-area .my-order-heading-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 42px;
+}
+
+@media (max-width: 1049px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area {
+    display: block;
+    margin-bottom: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area {
+    margin-bottom: 30px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading {
+  letter-spacing: 1px;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading {
+    margin-bottom: 4px;
+    font-size: 16px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-icon {
+  margin-right: 16px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-icon {
+    margin-right: 10px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  font-weight: 800;
+  margin-right: 32px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-text {
+    padding-top: 5px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading-message {
+  font-size: 18px;
+  padding-top: 5px;
+  color: #4D4D4D;
+}
+
+@media (max-width: 1049px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading-message {
+    margin-left: 40px;
+    font-size: 14px;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-heading-area .my-order-heading-message {
+    color: #8E8E8E;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area {
+  width: 755px;
+  position: relative;
+  border: #AAAAAA solid 1px;
+  border-radius: 20px;
+  margin-left: 42px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1329px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area {
+    margin-left: 0px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 899px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-number {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-number {
+    margin-top: 25px;
+    margin-left: 0px;
+    display: block;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-method {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 899px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-method {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-method {
+    margin-left: 0px;
+    display: block;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 899px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-status {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1049px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-status {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-status {
+    margin-left: 0px;
+    display: block;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-search {
+  width: 200px;
+  height: 40px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 899px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-search {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-search {
+    height: 30px;
+    margin: 0 auto 30px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-search .order-search-btn {
+  line-height: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  color: #E0C551;
+  outline: #E0C551 solid 1px;
+  padding-bottom: 2px;
+  letter-spacing: 4px;
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-search .order-search-btn:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #E0C551;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-search .order-search-btn {
+    font-size: 14px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-title {
+  color: #4D4D4D;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 60px;
+}
+
+@media (max-width: 910px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-title {
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-title {
+    font-size: 14px;
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 3px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-information-area .order-content {
+  color: #4D4D4D;
+  letter-spacing: 2px;
+  margin-left: 4px;
+  margin-right: 12px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-information-area .order-content {
+    color: #8E8E8E;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-activity-area {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area {
+    margin-left: 0px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-img {
+  width: 100%;
+  height: 12.5vw;
+  border-radius: 20px;
+  margin: 0 auto 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/activity-img.png");
+}
+
+@media (max-width: 1199px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-img {
+    height: 25vw;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-img {
+    height: 40vw;
+    margin-bottom: 5px;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-title {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-bg {
+  width: 100%;
+  height: 12.5vw;
+  border-radius: 20px;
+  margin: 0 auto 20px;
+  background-color: #DDDDDD;
+  border: #AAAAAA 1px solid;
+}
+
+@media (max-width: 1199px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-bg {
+    height: 25vw;
+  }
+}
+
+@media (max-width: 768px) {
+  main .orderfininshed-container .my-order-area .my-order-activity-area .my-order-activity .my-order-activity-bg {
+    height: 40vw;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  main .col-sm-6 {
+    padding: 0 10px;
+  }
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.div-shadow {
+  -webkit-box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .div-shadow {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+/*# sourceMappingURL=orderfinished.css.map */

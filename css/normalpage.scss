@@ -1,0 +1,101 @@
+main{
+    width: calc(100% - 273.92px);
+    position: relative;
+    float: right;
+    min-height: auto!important;
+    @media(max-width:1213px){
+        width: calc(100% - 230px);
+    }
+    @media(max-width:768px){
+        width: 100%;
+    }
+    .shop-QA-container{
+        margin: 118px auto 100px;
+        width: 73.75%;
+        @media (max-width: 1624px) {
+            width: 42.6%;
+        }
+        @media (max-width: 768px) {
+            width: 94%;
+            margin: 30px 20px 65px;
+        }
+        @media (max-width: 574px) {
+            width: 92.5%;
+        }
+        @media (max-width: 500px) {
+            width: 87.5%;
+        }
+        .shop-heading{
+                letter-spacing: 1px;
+                font-size: 32px;
+                margin-bottom: 39px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                @media(max-width:768px){
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                }
+                .shop-heading-text{
+                    display: flex;
+                    align-items: center;
+                    color: #120561;
+                    font-weight: 800;
+                    .shop-heading-box{
+                        background-color: #120561;
+                        margin-top: 1px;
+                        margin-right: 20px;
+                        width: 14px;
+                        height: 28px;
+                        @media(max-width:768px){
+                            width: 7px;
+                            height: 14px;
+                            margin-right: 14px;
+                        }
+                    }
+                }
+        }
+        .shop-content{
+            .shop-menu{
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                @media (max-width: 1624px) {
+                    height: auto;
+                }
+                .shop-list{
+                    width: 550px;
+                    height: 66px;
+                    margin-right: 7%;
+                    margin-bottom: 28px;
+                    @media (max-width: 1624px) {
+                        width: 100%;
+                    }
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        text-align: center;
+                        border-radius: 10px;
+                        color: #FFFFFF;
+                        background-color: #D8C45A;
+                        font-size: 16px;
+                        letter-spacing: 3px;
+                        padding-top: 20px;
+                        &:hover{
+                            transition: 0.5s ease-in-out;
+                            opacity: 0.6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.div-shadow{
+    box-shadow: 0 .1rem 1rem rgba(0,0,0,.15);
+    @media (max-width:768px) {
+        box-shadow: none;
+    }
+}

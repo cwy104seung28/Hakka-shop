@@ -1,0 +1,688 @@
+main {
+    width: calc(100% - 273.92px);
+    position: relative;
+    float: right;
+    min-height: auto !important;
+
+    @media(max-width:1213px) {
+        width: calc(100% - 230px);
+    }
+
+    @media(max-width:768px) {
+        width: 100%;
+    }
+
+    .profile-container {
+        margin: 118px auto 100px;
+        width: 72%;
+
+        @media(max-width:1229px) {
+            width: 75%;
+        }
+
+        @media(max-width:768px) {
+            width: 87.5%;
+            margin: 20px auto 100px;
+        }
+
+        .shop-heading {
+            letter-spacing: 1px;
+            font-size: 32px;
+            margin-bottom: 78px;
+            display: flex;
+            align-items: center;
+
+            @media(max-width:768px) {
+                margin-bottom: 20px;
+                font-size: 18px;
+                justify-content: space-between;
+            }
+
+            .shop-heading-text {
+                display: flex;
+                align-items: center;
+                color: #120561;
+                letter-spacing: 2px;
+                font-weight: 800;
+
+                .shop-heading-box {
+                    background-color: #120561;
+                    margin-top: 1px;
+                    margin-right: 20px;
+                    width: 14px;
+                    height: 28px;
+
+                    @media(max-width:768px) {
+                        width: 8px;
+                        height: 16px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .shop-more {
+                color: #E0C551;
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 4px;
+                padding-top: 10px;
+                margin-left: 35px;
+
+                @media(max-width:841px) {
+                    margin-left: 30px;
+                }
+
+                @media(max-width:768px) {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    padding-top: 1px;
+                    margin-left: 0px;
+                }
+            }
+        }
+
+        .shop-profile-area {
+            width: 100%;
+            font-size: 18px;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            color: #4D4D4D;
+
+            form {
+                position: relative;
+                .shop-profile-heading {
+                    letter-spacing: 1px;
+                    font-size: 24px;
+                    margin-bottom: 39px;
+                    display: flex;
+                    align-items: center;
+
+                    @media(max-width:768px) {
+                        margin-bottom: 20px;
+                        font-size: 16px;
+                    }
+
+                    .shop-profile-heading-icon {
+                        margin-right: 16px;
+                    }
+
+                    .shop-profile-heading-text {
+                        display: flex;
+                        align-items: center;
+                        color: #120561;
+                        font-weight: 800;
+
+                        @media(max-width:768px) {
+                            padding-top: 5px;
+                        }
+                    }
+                }
+
+                .account-setting {
+                    width: 79%;
+
+                    @media(max-width:1583px) {
+                        width: 100%;
+                    }
+
+                    @media(max-width:768px) {
+                        font-size: 14px;
+                    }
+
+                    .account-setting-content {
+                        display: flex;
+                        margin-left: 43px;
+                        margin-bottom: 78px;
+
+                        @media(max-width:1229px) {
+                            margin-left: 0;
+                            display: block;
+                        }
+
+                        .account-photo-area {
+                            width: 200px;
+                            margin-right: 60px;
+
+                            @media(max-width:1229px) {
+                                margin: 0 auto 30px;
+                            }
+
+                            @media(max-width:768px) {
+                                width: 130px;
+                            }
+
+                            .account-photo {
+                                width: 200px;
+                                height: 200px;
+                                border-radius: 40%;
+                                background-image: url("../img/profile-photo.png");
+
+                                @media(max-width:768px) {
+                                    width: 130px;
+                                    height: 130px;
+                                    border-radius: 50%;
+                                    background-size: cover;
+                                }
+                            }
+
+                            .picture-choose-btn {
+                                width: 200px;
+                                letter-spacing: 5px;
+                                text-align: center;
+                                margin-top: 50px;
+                                color: #E0C551;
+                                background-color: #FFFFFF;
+                                outline: #E0C551 solid 1px;
+
+                                &:hover {
+                                    transition: 0.5s ease-in-out;
+                                    background-color: #E0C551;
+                                    color: #FFFFFF;
+                                }
+
+                                @media(max-width:1911px) {
+                                    margin-top: 65px;
+                                }
+
+                                @media(max-width:1229px) {
+                                    margin-top: 20px;
+                                }
+
+                                @media(max-width:768px) {
+                                    width: 130px;
+                                    font-size: 12px;
+                                }
+                            }
+
+                            .btn {
+                                font-size: 18px;
+                                padding-left: 16px;
+
+                                @media(max-width:768px) {
+                                    width: 130px;
+                                    font-size: 12px;
+                                }
+                            }
+
+                            #picture-choose {
+                                display: none;
+                            }
+                        }
+
+                        .account-setting-area {
+                            width: 100%;
+                            font-weight: 600;
+
+                            @media(max-width:1229px) {
+                                margin-left: 0;
+                            }
+
+                            .account {
+                                margin-bottom: 50px;
+                                display: flex;
+
+                                @media(max-width:1911px) {
+                                    display: block;
+                                    margin-bottom: 10px;
+                                }
+
+                                @media(max-width:768px) {
+                                    margin-bottom: 20px;
+                                    letter-spacing: 4px;
+
+                                }
+
+                                .account-original {
+                                    margin-left: 40px;
+                                    width: 41.25%;
+                                    letter-spacing: 2px;
+                                    color: #4D4D4D;
+                                    font-weight: 400;
+
+                                    @media(max-width:1911px) {
+                                        margin-left: 0px;
+                                    }
+                                }
+                            }
+
+                            .password {
+                                margin-bottom: 50px;
+                                display: flex;
+
+                                @media(max-width:1911px) {
+                                    display: block;
+                                    margin-bottom: 10px;
+                                }
+
+                                @media(max-width:768px) {
+                                    margin-bottom: 20px;
+                                    letter-spacing: 4px;
+                                }
+
+                                .password-change {
+                                    width: 80%;
+                                    position: relative;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-left: 40px;
+
+                                    @media(max-width:1911px) {
+                                        margin-left: 0px;
+                                        width: 100%;
+                                    }
+
+                                    @media(max-width:768px) {
+                                        height: 34px;
+                                    }
+
+                                    input {
+                                        width: calc(80% - 22px);
+                                        margin-right: 22px;
+
+                                        @media(max-width:1911px) {
+                                            width: calc(100% - 142px);
+                                        }
+
+                                        @media(max-width:768px) {
+                                            width: 100%;
+                                            margin-right: 0px;
+                                            padding-right: 100px;
+                                        }
+
+                                        &:focus {
+                                            outline: #E0C551 solid 2px;
+                                        }
+
+                                    }
+
+                                    .password-change-btn {
+                                        width: 120px;
+                                        height: 34px;
+                                        border: none;
+                                        letter-spacing: 2px;
+                                        outline: #4D4D4D solid 1px;
+
+                                        &:hover {
+                                            transition: 0.5s ease-in-out;
+                                            background-color: #4D4D4D;
+                                            color: #FFFFFF;
+                                        }
+
+                                        @media(max-width:1911px) {
+                                            margin-top: 10px;
+                                        }
+
+                                        @media(max-width:768px) {
+                                            position: absolute;
+                                            right: 0px;
+                                            width: 80px;
+                                            outline: none;
+                                            background-color: #E6E6E6;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .change-section {
+                                display: none;
+
+                                .new-password {
+                                    margin-bottom: 50px;
+                                    display: flex;
+
+                                    @media(max-width:1911px) {
+                                        display: block;
+                                        margin-bottom: 10px;
+                                    }
+
+                                    @media(max-width:768px) {
+                                        letter-spacing: 4px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    input {
+                                        margin-left: 40px;
+
+                                        @media(max-width:1911px) {
+                                            margin-left: 0px;
+                                        }
+
+                                        &:focus {
+                                            outline: #E0C551 solid 2px;
+                                        }
+                                    }
+                                }
+
+                                .new-password-checked {
+                                    margin-bottom: 50px;
+                                    display: flex;
+
+                                    @media(max-width:1911px) {
+                                        display: block;
+                                        margin-bottom: 10px;
+                                    }
+
+                                    @media(max-width:768px) {
+                                        letter-spacing: 4px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    input {
+                                        width: 78%;
+                                        margin-left: 38px;
+
+                                        @media(max-width:1911px) {
+                                            width: 100%;
+                                            margin-left: 0px;
+                                        }
+
+                                        &:focus {
+                                            outline: #E0C551 solid 2px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .name {
+                                margin-bottom: 50px;
+                                display: flex;
+
+                                @media(max-width:1911px) {
+                                    display: block;
+                                    margin-bottom: 10px;
+                                }
+
+                                @media(max-width:768px) {
+                                    letter-spacing: 4px;
+                                    margin-bottom: 20px;
+                                }
+
+                                input {
+                                    margin-left: 40px;
+
+                                    @media(max-width:1911px) {
+                                        margin-left: 0px;
+                                    }
+
+                                    &:focus {
+                                        outline: #E0C551 solid 2px;
+                                    }
+                                }
+                            }
+
+                            .phone-number {
+                                display: flex;
+
+                                @media(max-width:1911px) {
+                                    display: block;
+                                    margin-bottom: 10px;
+                                }
+
+                                @media(max-width:768px) {
+                                    margin-bottom: 20px;
+                                }
+
+                                input {
+                                    margin-left: 40px;
+
+                                    @media(max-width:1911px) {
+                                        margin-left: 0px;
+                                    }
+
+                                    @media(max-width:1199px) {
+                                        margin-left: 45px;
+                                    }
+
+                                    @media(max-width:1194px) {
+                                        margin-left: 0px;
+                                    }
+
+                                    &:focus {
+                                        outline: #E0C551 solid 2px;
+                                    }
+
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                .address-setting {
+                    width: 79%;
+                    font-weight: 600;
+
+                    @media(max-width:1583px) {
+                        width: 100%;
+                    }
+
+                    @media(max-width:768px) {
+                        font-size: 14px;
+                    }
+
+                    .shop-profile-heading {
+                        margin-bottom: 15px;
+                    }
+
+                    .message {
+                        text-align: right;
+                        font-size: 14px;
+                        margin-bottom: 8px;
+
+                        @media(max-width:1911px) {
+                            position: absolute;
+                            right: 21%;
+                            padding-top: 7.5px;
+                        }
+
+                        @media(max-width:1583px) {
+                            right: 0%;
+                        }
+
+                        @media(max-width:768px) {
+                            padding-top: 0;
+                        }
+                    }
+
+                    .address-setting-content {
+                        margin-left: 43px;
+
+                        @media(max-width:1229px) {
+                            margin-left: 0px;
+                        }
+
+                        .address {
+                            display: flex;
+                            letter-spacing: 16px;
+                            margin-bottom: 50px;
+
+                            @media(max-width:1911px) {
+                                display: block;
+                                margin-bottom: 10px;
+                            }
+
+                            @media(max-width:768px) {
+                                margin-bottom: 20px;
+                                letter-spacing: 4px;
+
+                            }
+
+                            .address-change {
+                                position: relative;
+                                width: 100%;
+                                height: 34px;
+                                margin-left: 30px;
+                                display: flex;
+                                justify-content: space-between;
+
+                                @media(max-width:1911px) {
+                                    margin-left: 0;
+                                    margin-top: -15px;
+                                }
+
+                                @media(max-width:768px) {
+                                    margin-top: -10px;
+                                }
+
+                                input {
+                                    width: 100%;
+
+                                    &:focus {
+                                        outline: #E0C551 solid 2px;
+                                    }
+                                }
+
+                                input[type="text"] {
+
+                                    margin-top: 0;
+                                }
+
+                                input[type="checkbox"],
+                                input[type="submit"] {
+                                    margin-left: 0px;
+                                }
+                            }
+
+                            input[type="checkbox"] {
+                                display: none;
+                            }
+
+                            input[type="checkbox"]+label {
+                                position: absolute;
+                                right: 5px;
+                                width: 17px;
+                                height: 16px;
+                                margin-top: 9px;
+                                margin-right: 10px;
+                                outline: #120561 solid 1px;
+                            }
+
+                            input[type="checkbox"]:checked+label {
+                                background: url("../img/checked.png") center no-repeat;
+                            }
+                        }
+                    }
+
+                }
+
+                .save-btn {
+                    position: absolute;
+                    right: calc(10% - 100px);
+                    bottom: -4.5%;
+                    width: 200px;
+                    height: 40px;
+                    text-align: center;
+                    letter-spacing: 5px;
+                    margin-bottom: 30px;
+                    background-color: #FFFFFF;
+                    color: #E0C551;
+                    outline: #E0C551 solid 1px;
+                    padding: 0 10px;
+                    &:hover {
+                        transition: 0.5s ease-in-out;
+                        color: #FFFFFF;
+                        background-color: #E0C551;
+                    }
+
+                    @media(max-width:1583px) {
+                        position: static;
+                        margin-left: 42px;
+                    }
+                    @media(max-width:1229px) {
+                        margin-left: 0px;
+                    }
+                    @media(max-width:768px) {
+                        margin:20px calc(50% - 100px) 0;
+                    }
+                }
+            }
+        }
+    }
+
+    input {
+        width: 80%;
+        height: 34px;
+        padding-left: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        outline: #4D4D4D solid 1px;
+
+        @media(max-width:1911px) {
+            width: 100%;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    input[placeholder] {
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 2px;
+
+        @media(max-width:768px) {
+            font-size: 14px;
+        }
+    }
+
+}
+
+button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.div-shadow {
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .15);
+
+    @media (max-width:768px) {
+        box-shadow: none;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.margin-left {
+    margin-left: 40px;
+
+    @media(max-width:1431px) {
+        margin-left: 20px;
+    }
+
+    @media (max-width:1199px) {
+        margin-left: 0px;
+    }
+}
+
+.margin-right {
+    margin-right: 40px;
+
+    @media(max-width:1431px) {
+        margin-right: 20px;
+    }
+
+    @media (max-width:1199px) {
+        margin-right: 0px;
+    }
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-right: 0;
+
+    @media (max-width:768px) {
+        width: 30px;
+    }
+}
+
+.active {
+    display: block !important;
+}

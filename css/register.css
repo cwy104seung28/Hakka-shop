@@ -1,0 +1,1102 @@
+main {
+  width: calc(100% - 273.92px);
+  position: relative;
+  float: right;
+  min-height: auto !important;
+}
+
+@media (max-width: 1213px) {
+  main {
+    width: calc(100% - 230px);
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+}
+
+main .register-container {
+  margin: 118px auto 100px;
+  width: 72%;
+}
+
+@media (max-width: 767px) {
+  main .register-container {
+    width: 87.5%;
+    margin: 20px auto 100px;
+  }
+}
+
+main .register-container .shop-heading {
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-bottom: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-heading {
+    margin-bottom: 20px;
+    font-size: 18px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+main .register-container .shop-heading .shop-heading-text {
+  color: #120561;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+main .register-container .shop-heading .shop-heading-text .shop-heading-box {
+  display: inline-block;
+  background-color: #120561;
+  margin-top: 1px;
+  margin-right: 20px;
+  width: 14px;
+  height: 28px;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-heading .shop-heading-text .shop-heading-box {
+    width: 8px;
+    height: 16px;
+    margin-right: 10px;
+  }
+}
+
+main .register-container .shop-heading .shop-more {
+  color: #E0C551;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  padding-top: 10px;
+  margin-left: 35px;
+}
+
+@media (max-width: 841px) {
+  main .register-container .shop-heading .shop-more {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-heading .shop-more {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    margin-left: 0px;
+  }
+}
+
+main .register-container .shop-register-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area {
+    display: block;
+  }
+}
+
+main .register-container .shop-register-area .email-register {
+  margin-bottom: 30px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #4D4D4D;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content {
+    font-size: 14px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 28px;
+  font-weight: 600;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .email {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .email {
+    margin-bottom: 20px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .email input {
+  margin-left: 45px;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .email input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .email input {
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .email input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 28px;
+  font-weight: 600;
+  position: relative;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .password {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .password {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .password .forget-password {
+  width: 100px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  position: absolute;
+  color: #C10000;
+  outline: #C10000 solid 1.5px;
+  right: 0;
+  top: 0;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .password .forget-password:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: #FFFFFF;
+  background-color: #C10000;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .password .forget-password {
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .password input {
+  margin-left: 45px;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .password input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .password input {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .password input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .verification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .verification {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .verification {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .verification input {
+  margin-left: 45px;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .verification input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .verification input {
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .verification input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation {
+  color: #808080;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation {
+    width: 500px;
+    display: block;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 1039px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation {
+    margin: 20px auto 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation .regulation-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation .regulation-text {
+    font-size: 12px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation .regulation-text a {
+  color: #E0C551;
+  padding-bottom: 2.5px;
+  border-bottom: #E0C551 solid 1px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn {
+  width: 200px;
+  height: 40px;
+  color: #E0C551;
+  letter-spacing: 4px;
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  outline: #E0C551 solid 1px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: #FFFFFF;
+  background-color: #E0C551;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1039px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn {
+    margin: 20px calc(50% - 100px) 0;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation input[type="checkbox"] {
+  display: none;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation input[type="checkbox"] + label {
+  width: 17px;
+  height: 16px;
+  margin-bottom: -1px;
+  margin-right: 10px;
+  outline: #120561 solid 1px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .regulation input[type="checkbox"]:checked + label {
+  background: url("../img/checked.png") center no-repeat;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .other-link {
+  color: #A7A7A7;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .other-link {
+    width: 164px;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .other-link .forget-password-link:hover {
+  color: #D8C45A;
+  border-bottom: 1px  #D8C45A solid;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .other-link .register-link:hover {
+  color: #D8C45A;
+  border-bottom: 1px  #D8C45A solid;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .message {
+  width: 450px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #120561;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .message {
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .message .login {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30px;
+  outline: #E0C551 solid 1px;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .message .login {
+    margin: 15px auto 0;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .message .login a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 6px 0 0;
+  letter-spacing: 4px;
+  color: #E0C551;
+  background-color: #FFFFFF;
+  outline: #E0C551 solid 1px;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .email-register .email-register-content form .message .login a {
+    font-size: 16px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form .message .login a:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: #FFFFFF;
+  background-color: #E0C551;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form input {
+  width: 77.5%;
+  outline: #4D4D4D solid 1px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form input:focus {
+  outline: #E0C551 solid 2px;
+}
+
+@media (max-width: 1871px) {
+  main .register-container .shop-register-area .email-register .email-register-content form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .register-container .shop-register-area .email-register .email-register-content form input {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  outline: #120561 solid 1px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form input[type="checkbox"], main .register-container .shop-register-area .email-register .email-register-content form input[type="submit"] {
+  margin-left: 0px;
+}
+
+main .register-container .shop-register-area .email-register .email-register-content form input[placeholder] {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main .register-container .shop-register-area .social-register .social-register-content .social-menu {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 1624px) {
+  main .register-container .shop-register-area .social-register .social-register-content .social-menu {
+    height: auto;
+  }
+}
+
+main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list {
+  width: 550px;
+  height: 108px;
+  margin-right: 7%;
+  margin-bottom: 28px;
+}
+
+main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 37.5px;
+  text-align: center;
+  border-radius: 10px;
+  color: #E0C551;
+  background-color: #FFFFFF;
+  border: #E0C551 solid 1px;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list a:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: #FFFFFF;
+  background-color: #E0C551;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list a {
+    padding-top: 22.5px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1624px) {
+  main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list {
+    height: 70px;
+  }
+}
+
+main .register-container .shop-register-area .shop-register-heading {
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .shop-register-heading {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+main .register-container .shop-register-area .shop-register-heading .shop-register-heading-icon {
+  margin-right: 16px;
+}
+
+main .register-container .shop-register-area .shop-register-heading .shop-register-heading-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  main .register-container .shop-register-area .shop-register-heading .shop-register-heading-text {
+    padding-top: 5px;
+  }
+}
+
+main .using-regulation-container {
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 290px);
+  z-index: 12;
+}
+
+main .using-regulation-container .using-regulation {
+  width: 580px;
+  padding: 0 60px 40px;
+  outline: #E0C551 solid 20px;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+  main .using-regulation-container .using-regulation {
+    padding: 0 30px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .using-regulation-container .using-regulation {
+    padding: 0 10px 20px;
+    outline: #E0C551 solid 10px;
+  }
+}
+
+main .using-regulation-container .using-regulation .using-title {
+  width: 185px;
+  color: #E0C551;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px auto;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  main .using-regulation-container .using-regulation .using-title {
+    font-size: 18px;
+  }
+}
+
+main .using-regulation-container .using-regulation .using-content {
+  height: 90%;
+  color: #808080;
+  font-size: 16px;
+  letter-spacing: 2px;
+  overflow: scroll;
+}
+
+@media (max-width: 767px) {
+  main .using-regulation-container .using-regulation .using-content {
+    font-size: 14px;
+  }
+}
+
+main .using-regulation-container .using-regulation ::-webkit-scrollbar {
+  position: relative;
+  width: 5px;
+}
+
+main .using-regulation-container .using-regulation ::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+main .using-regulation-container .using-regulation ::-webkit-scrollbar-thumb {
+  background-color: rgba(224, 197, 81, 0.6);
+  border-radius: 10px;
+  opacity: 1;
+}
+
+main .login-container {
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 290px);
+  z-index: 12;
+}
+
+main .login-container .login {
+  width: 540px;
+  height: 522px;
+  padding: 0 60px 12px;
+  outline: #E0C551 solid 20px;
+  background-color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+  main .login-container .login {
+    padding: 0 30px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .login-container .login {
+    padding: 0 10px 20px;
+    outline: #E0C551 solid 10px;
+  }
+}
+
+main .login-container .login .login-title {
+  width: 250px;
+  color: #E0C551;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px auto 35px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  main .login-container .login .login-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-height: 879px) {
+  main .login-container .login .login-title {
+    margin-bottom: 10px;
+  }
+}
+
+main .login-container .login .login-content {
+  height: 70%;
+}
+
+main .login-container .login .login-content button {
+  width: 100%;
+  height: calc(100% / 3.333);
+  margin-bottom: 28px;
+}
+
+@media (max-height: 879px) {
+  main .login-container .login .login-content button {
+    margin-bottom: 15px;
+  }
+}
+
+main .login-container .login .login-content button a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  color: #E0C551;
+  background-color: #FFFFFF;
+  border: #E0C551 solid 1px;
+  font-size: 22px;
+  letter-spacing: 3px;
+  padding: 40px 0;
+}
+
+@media (max-width: 1199px) {
+  main .login-container .login .login-content button a {
+    font-size: 20px;
+    padding: 35px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  main .login-container .login .login-content button a {
+    font-size: 16px;
+    margin: 15px auto 0;
+  }
+}
+
+@media (max-height: 500px) {
+  main .login-container .login .login-content button a {
+    padding: 15px 0;
+  }
+}
+
+main .login-container .login .login-content button a:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: #FFFFFF;
+  background-color: #E0C551;
+}
+
+main .col-xl-6, main .col-lg-12 {
+  padding: 0;
+}
+
+main .using-regulation-container.lightbox-target {
+  position: fixed;
+  top: -100%;
+  left: 273.92px;
+  width: calc(100% - 273.92px);
+  opacity: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  main .using-regulation-container.lightbox-target {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+main .using-regulation-container.lightbox-target .lightbox-content {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 0%;
+  width: 0%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+main .using-regulation-container.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+  background-image: url("../img/lightbox-bg.png");
+}
+
+main .using-regulation-container.lightbox-target:target .lightbox-content {
+  width: 580px;
+  height: 640px;
+}
+
+@media (max-width: 1199px) {
+  main .using-regulation-container.lightbox-target:target .lightbox-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  main .using-regulation-container.lightbox-target:target .lightbox-content {
+    width: 95%;
+    height: 480px;
+  }
+}
+
+@media (max-height: 800px) {
+  main .using-regulation-container.lightbox-target:target .lightbox-content {
+    height: 95vh;
+  }
+}
+
+main .using-regulation-container.lightbox-target:target .lightbox-close {
+  top: 2.5%;
+}
+
+main .login-container.lightbox-target {
+  position: fixed;
+  top: -100%;
+  left: 273.92px;
+  width: calc(100% - 273.92px);
+  opacity: 0;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  main .login-container.lightbox-target {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+main .login-container.lightbox-target .lightbox-content {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 0%;
+  width: 0%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+main .login-container.lightbox-target:target {
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+  background-image: url("../img/lightbox-bg.png");
+}
+
+main .login-container.lightbox-target:target .lightbox-content {
+  width: 540px;
+  height: 55.2%;
+}
+
+@media (max-width: 1199px) {
+  main .login-container.lightbox-target:target .lightbox-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  main .login-container.lightbox-target:target .lightbox-content {
+    width: 95vw;
+  }
+}
+
+@media (max-height: 800px) {
+  main .login-container.lightbox-target:target .lightbox-content {
+    height: 95vh;
+  }
+}
+
+main .login-container.lightbox-target:target .lightbox-close {
+  top: 2.5%;
+}
+
+main .lightbox-close {
+  display: block;
+  width: 20px;
+  height: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  left: 105%;
+}
+
+@media (max-width: 1199px) {
+  main .lightbox-close {
+    left: 95%;
+  }
+}
+
+@media (max-width: 1199px) {
+  main .lightbox-close {
+    left: 90%;
+  }
+}
+
+main .lightbox-close img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.div-shadow {
+  -webkit-box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 767px) {
+  .div-shadow {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.margin-left {
+  margin-left: 40px;
+}
+
+@media (max-width: 1431px) {
+  .margin-left {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .margin-left {
+    margin-left: 0px;
+  }
+}
+
+.margin-right {
+  margin-right: 40px;
+}
+
+@media (max-width: 1431px) {
+  .margin-right {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .margin-right {
+    margin-right: 0px;
+  }
+}
+
+br {
+  display: none;
+}
+
+@media (max-width: 1871px) {
+  br {
+    display: block;
+  }
+}
+
+@media (max-width: 1199px) {
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  br {
+    display: block;
+  }
+}
+
+.lightbox-closed {
+  display: none;
+}
+
+.text {
+  text-align: justify;
+  width: 100px;
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .text {
+    width: auto;
+  }
+}
+
+.text:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .text:after {
+    content: none;
+  }
+}
+
+.btn {
+  border-radius: 0px;
+}
+/*# sourceMappingURL=register.css.map */

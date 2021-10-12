@@ -1,0 +1,823 @@
+main {
+  width: calc(100% - 273.92px);
+  position: relative;
+  float: right;
+  min-height: auto !important;
+}
+
+@media (max-width: 1213px) {
+  main {
+    width: calc(100% - 230px);
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+}
+
+main .orderlist-container {
+  margin: 118px auto 100px;
+  width: 72%;
+}
+
+@media (max-width: 1229px) {
+  main .orderlist-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container {
+    width: 87.5%;
+    margin: 20px auto 100px;
+  }
+}
+
+main .orderlist-container .shop-heading {
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .shop-heading {
+    margin-bottom: 20px;
+    font-size: 18px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+main .orderlist-container .shop-heading .shop-heading-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+main .orderlist-container .shop-heading .shop-heading-text .shop-heading-box {
+  background-color: #120561;
+  margin-top: 1px;
+  margin-right: 20px;
+  width: 14px;
+  height: 28px;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .shop-heading .shop-heading-text .shop-heading-box {
+    width: 8px;
+    height: 16px;
+    margin-right: 10px;
+  }
+}
+
+main .orderlist-container .shop-heading .shop-more {
+  color: #E0C551;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  padding-top: 10px;
+  margin-left: 35px;
+}
+
+@media (max-width: 841px) {
+  main .orderlist-container .shop-heading .shop-more {
+    margin-left: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .shop-heading .shop-more {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    margin-left: 0px;
+  }
+}
+
+main .orderlist-container .my-order-area {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #4D4D4D;
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .my-order-heading-area {
+    display: block;
+  }
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading {
+  letter-spacing: 1px;
+  font-size: 24px;
+  margin-bottom: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-icon {
+  margin-right: 16px;
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-text {
+    padding-top: 5px;
+  }
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area .condition-search-btn {
+  width: 200px;
+  height: 40px;
+  color: #4D4D4D;
+  background-color: #FFFFFF;
+  border: #4D4D4D solid 1px;
+  border-radius: 40px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area .condition-search-btn:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #4D4D4D;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .my-order-heading-area .condition-search-btn {
+    font-size: 16px;
+    margin: 0 calc(50% - 100px) 20px;
+  }
+}
+
+main .orderlist-container .my-order-area .my-order-heading-area .btn-primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main .orderlist-container .my-order-area .condition-search-area {
+  margin-bottom: 60px;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search {
+  min-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F9F9F9;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-heading {
+  margin-top: 30px;
+  margin-left: 8%;
+  margin-bottom: 27px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-heading {
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content {
+  margin-left: 8%;
+  margin-right: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1040px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input {
+  width: 100%;
+  font-weight: 600;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number {
+    margin-bottom: 20px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number input {
+  width: 78%;
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1299px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number input {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1040px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date {
+    margin-bottom: 40px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
+  width: 35%;
+  color: #808080;
+}
+
+@media (max-width: 1040px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
+    width: 43%;
+  }
+}
+
+@media (max-width: 802px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
+    width: 42%;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
+    width: 44%;
+  }
+}
+
+@media (max-width: 572px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
+    width: 42.5%;
+  }
+}
+
+@media (max-width: 362px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
+    width: 41%;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date #date-start {
+  margin-right: 22px;
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date #date-start {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 529px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date #date-start {
+    margin-right: 10px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date #date-end {
+  margin-left: 22px;
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date #date-end {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 529px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date #date-end {
+    margin-left: 10px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button {
+  width: 220px;
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button {
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 1040px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button {
+    margin: 30px auto 40px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button .search {
+  width: 200px;
+  height: 40px;
+  background-color: #FFFFFF;
+  color: #E0C551;
+  outline: #E0C551 solid 1px;
+  margin-bottom: 18px;
+  letter-spacing: 5px;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button .search:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #E0C551;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button .search {
+    margin-bottom: 62.5px;
+  }
+}
+
+@media (max-width: 1040px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button .search {
+    margin-bottom: 18px;
+  }
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button .clear {
+  width: 200px;
+  height: 40px;
+  background-color: #FFFFFF;
+  color: #E0C551;
+  outline: #E0C551 solid 1px;
+  letter-spacing: 5px;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .button .clear:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #E0C551;
+  color: #FFFFFF;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content input {
+  width: 50%;
+  margin-left: 45px;
+  background-color: #FFFFFF;
+  outline: #4D4D4D solid 1px;
+}
+
+main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content input:focus {
+  outline: #E0C551 solid 2px;
+}
+
+@media (max-width: 1699px) {
+  main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content input {
+    margin-top: 12px;
+    margin-left: 0px;
+  }
+}
+
+main .orderlist-container .my-order-area .card {
+  border: none;
+}
+
+main .orderlist-container .my-order-area .card {
+  padding: 0;
+}
+
+main .orderlist-container .my-order-menu-area {
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-menu-area {
+    display: none;
+  }
+}
+
+main .orderlist-container .my-order-menu-area .table tr.my-order-menu-item {
+  height: 80px;
+  text-align: center;
+  background-color: #F3E8B9;
+  border-top: #000000 solid 1px;
+  letter-spacing: 1px;
+}
+
+main .orderlist-container .my-order-menu-area .table tr.my-order-menu-list {
+  height: 80px;
+  text-align: center;
+  border-top: #A8A8A8 solid 1px;
+  border-bottom: #A8A8A8 solid 1px;
+  letter-spacing: 2px;
+}
+
+main .orderlist-container .my-order-menu-area .table tr.my-order-menu-list:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #FCF9ED;
+}
+
+main .orderlist-container .my-order-menu-area a {
+  width: 100%;
+  height: 100%;
+}
+
+main .orderlist-container .my-order-menu-area tbody {
+  display: none;
+}
+
+main .orderlist-container .my-order-menu-area .table td:hover {
+  cursor: pointer;
+}
+
+main .orderlist-container .my-order-menu-area .table th {
+  font-weight: 500;
+}
+
+main .orderlist-container .my-order-menu-area .table th, main .orderlist-container .my-order-menu-area .table td {
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+main .orderlist-container .my-order-menu-area .table th.order-date, main .orderlist-container .my-order-menu-area .table td.order-date {
+  width: 100px;
+  padding-left: 60px;
+  padding-right: 0px;
+}
+
+main .orderlist-container .my-order-menu-area .table th.order-number, main .orderlist-container .my-order-menu-area .table td.order-number {
+  width: 100px;
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+main .orderlist-container .my-order-menu-area .table th.order-status, main .orderlist-container .my-order-menu-area .table td.order-status {
+  width: 50px;
+  padding-right: 40px;
+}
+
+main .orderlist-container .my-order-menu-area .table th.order-total, main .orderlist-container .my-order-menu-area .table td.order-total {
+  width: 50px;
+  padding-right: 100px;
+}
+
+main .orderlist-container .my-order-menu-area .flex {
+  width: 75px;
+  margin-left: calc(50% - 37.5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1531px) {
+  main .orderlist-container .my-order-menu-area .table th.order-date, main .orderlist-container .my-order-menu-area .table td.order-date {
+    width: 100px;
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-number, main .orderlist-container .my-order-menu-area .table td.order-number {
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-status, main .orderlist-container .my-order-menu-area .table td.order-status {
+    width: 70px;
+    padding-right: 10px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-total, main .orderlist-container .my-order-menu-area .table td.order-total {
+    width: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1042px) {
+  main .orderlist-container .my-order-menu-area .table th.order-date, main .orderlist-container .my-order-menu-area .table td.order-date {
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 0px;
+    letter-spacing: 1px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-number, main .orderlist-container .my-order-menu-area .table td.order-number {
+    width: 50px;
+    padding-left: 0px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-status, main .orderlist-container .my-order-menu-area .table td.order-status {
+    width: 70px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-total, main .orderlist-container .my-order-menu-area .table td.order-total {
+    width: 25px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+  }
+  main .orderlist-container .my-order-menu-area .table th, main .orderlist-container .my-order-menu-area .table td {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 844px) {
+  main .orderlist-container .my-order-menu-area .table th.order-date, main .orderlist-container .my-order-menu-area .table td.order-date {
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-number, main .orderlist-container .my-order-menu-area .table td.order-number {
+    width: 50px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-status, main .orderlist-container .my-order-menu-area .table td.order-status {
+    width: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  main .orderlist-container .my-order-menu-area .table th.order-total, main .orderlist-container .my-order-menu-area .table td.order-total {
+    width: 25px;
+    padding-right: 20px;
+  }
+}
+
+main .orderlist-container nav {
+  margin-top: 75px;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container nav {
+    display: none;
+  }
+}
+
+main .orderlist-container nav .pagination .page-item .page-link.prev, main .orderlist-container nav .pagination .page-item .page-link.next {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+main .orderlist-container nav .pagination .page-item .page-link.first-page, main .orderlist-container nav .pagination .page-item .page-link.prev, main .orderlist-container nav .pagination .page-item .page-link.next, main .orderlist-container nav .pagination .page-item .page-link.last-page {
+  outline: #4D4D4D solid 1px;
+}
+
+main .orderlist-container .my-order-phone-menu-area {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  main .orderlist-container .my-order-phone-menu-area {
+    display: block;
+  }
+}
+
+main .orderlist-container .my-order-phone-menu-area .my-order-phone-menu {
+  max-height: 2135px;
+  overflow: hidden;
+}
+
+main .orderlist-container .my-order-phone-menu-area .my-order-phone-menu .my-order-phone-list {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 20px;
+  border: #808080 solid 1px;
+  background-color: #FBF9EE;
+}
+
+main .orderlist-container .my-order-phone-menu-area .my-order-phone-menu .my-order-phone-list:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+main .orderlist-container .my-order-phone-menu-area .my-order-phone-menu .my-order-phone-list .order-title {
+  font-size: 14px;
+  margin-bottom: 3px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #4E4E4E;
+}
+
+main .orderlist-container .my-order-phone-menu-area .my-order-phone-menu .my-order-phone-list .order-content {
+  font-size: 14px;
+  color: #8E8E8E;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+main .orderlist-container .my-order-phone-menu-area label {
+  width: 200px;
+  height: 30px;
+  margin: 30px calc(50% - 100px) 0;
+}
+
+main .orderlist-container .my-order-phone-menu-area label .more-shop-btn {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 2px;
+  letter-spacing: 2px;
+  color: #4D4D4D;
+  outline: #4D4D4D solid 1px;
+}
+
+main .orderlist-container .my-order-phone-menu-area label .more-shop-btn:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: #FFFFFF;
+  background-color: #4D4D4D;
+}
+
+main .orderlist-container .my-order-phone-menu-area input {
+  display: none;
+}
+
+main .orderlist-container .my-order-phone-menu-area #more-shop:checked ~ .my-order-phone-menu {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  height: auto;
+  overflow: visible;
+}
+
+main input {
+  width: 80%;
+  height: 34px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: #4D4D4D solid 1px;
+}
+
+@media (max-width: 1911px) {
+  main input {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  main input {
+    height: 22px;
+  }
+}
+
+main input[placeholder] {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+  main input[placeholder] {
+    font-size: 12px;
+  }
+}
+
+main .page-link {
+  border: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #4D4D4D;
+  margin: 0 1px;
+}
+
+main .page-link:hover {
+  color: #4D4D4D;
+  background-color: #FFFFFF;
+}
+
+main .page-link:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.div-shadow {
+  -webkit-box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 767px) {
+  .div-shadow {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.input_focus {
+  outline: #E0C551 solid 2px !important;
+}
+
+.disabled {
+  display: none;
+}
+
+.active {
+  display: table-row-group !important;
+}
+
+.active_page {
+  background-color: #E0C551 !important;
+  border-radius: 50% !important;
+  color: #FFFFFF !important;
+}
+
+a:visited {
+  color: #4D4D4D;
+}
+
+br {
+  display: none;
+}
+
+@media (max-width: 1699px) {
+  br {
+    display: block;
+  }
+}
+/*# sourceMappingURL=orderlistpage.css.map */

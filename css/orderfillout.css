@@ -1,0 +1,1141 @@
+main {
+  width: calc(100% - 273.92px);
+  position: relative;
+  float: right;
+  min-height: auto !important;
+}
+
+@media (max-width: 1213px) {
+  main {
+    width: calc(100% - 230px);
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+}
+
+main .orderfillout-container {
+  margin: 118px auto 100px;
+  width: 72%;
+}
+
+@media (max-width: 1229px) {
+  main .orderfillout-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container {
+    width: 87.5%;
+    margin: 20px auto 0px;
+  }
+}
+
+main .orderfillout-container .shop-heading {
+  letter-spacing: 1px;
+  font-size: 32px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .shop-heading {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+
+main .orderfillout-container .shop-heading .shop-heading-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-right: 25px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .shop-heading .shop-heading-text {
+    margin-right: 10px;
+  }
+}
+
+main .orderfillout-container .shop-heading .shop-heading-text .shop-heading-box {
+  background-color: #120561;
+  margin-top: 1px;
+  margin-right: 20px;
+  width: 14px;
+  height: 28px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .shop-heading .shop-heading-text .shop-heading-box {
+    width: 8px;
+    height: 16px;
+    margin-right: 10px;
+  }
+}
+
+main .orderfillout-container .shop-heading .shop-more {
+  color: #A09BC0;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+@media (max-width: 845px) {
+  main .orderfillout-container .shop-heading .shop-more {
+    margin-left: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .shop-heading .shop-more {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    margin-left: 0px;
+  }
+}
+
+main .orderfillout-container .shop-heading .shop-more img {
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .shop-heading .shop-more img {
+    margin-right: 10px;
+    width: 7.5%;
+    padding-bottom: 3px;
+  }
+}
+
+main .orderfillout-container .my-order-area {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #4D4D4D;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area {
+    font-size: 14px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-heading {
+  letter-spacing: 1px;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-heading {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-icon {
+  margin-right: 16px;
+}
+
+main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #120561;
+  font-weight: 800;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-text {
+    margin-right: 17px;
+    padding-top: 5px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message {
+  height: 12px;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message {
+    font-size: 12px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"] {
+  display: none;
+}
+
+main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"] + label {
+  width: 14px;
+  height: 14px;
+  margin-top: 2.5px;
+  margin-right: 5px;
+  outline: #4D4D4D solid 1px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"] + label {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"]:checked + label {
+  background: url("../img/checked.png") center no-repeat;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"]:checked + label {
+    background-size: 85%;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area {
+    display: none;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table {
+  position: relative;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table tr.my-order-menu-item {
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #EAEAEA;
+  border-top: #A8A8A8 solid 1px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1140px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table tr.my-order-menu-item {
+    font-size: 16px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table tr.my-order-menu-list {
+  height: 100px;
+  text-align: center;
+  font-size: 18px;
+  border-top: #A8A8A8 solid 1px;
+  border-bottom: #A8A8A8 solid 1px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1140px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table tr.my-order-menu-list {
+    font-size: 16px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th {
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-closed {
+  position: absolute;
+  padding-top: 65px;
+  right: 10px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-closed .order-closed-btn {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-image: url("../img/closed.png");
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity {
+  padding-right: 30px;
+}
+
+@media (max-width: 1563px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity {
+    padding-right: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+  padding-right: 80px;
+  text-align: left;
+}
+
+@media (max-width: 1290px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 1050px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+    padding-right: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+  width: 380px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 1344px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+    width: 340px;
+  }
+}
+
+@media (max-width: 1290px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+    width: 275px;
+  }
+}
+
+@media (max-width: 1050px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+    width: 200px;
+  }
+}
+
+@media (max-width: 940px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-commodity, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-commodity {
+    width: 120px;
+    padding-right: 0;
+    white-space: initial;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-amount, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+  width: 260px;
+}
+
+@media (max-width: 1271px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-amount, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1290px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-amount, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+    width: 280px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 940px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-amount, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+    width: 350px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-price {
+  width: 187px;
+}
+
+@media (max-width: 1140px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-price {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 940px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-price {
+    width: 150px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-total, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-total {
+  width: 225px;
+}
+
+@media (max-width: 1140px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-total, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-total {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 940px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table th.order-total, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-total {
+    width: 150px;
+    padding-left: 0;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+  padding-left: 20px;
+}
+
+@media (max-width: 1476px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1290px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount {
+    padding-left: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-amount, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-total {
+  padding-top: 55px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-total {
+  padding-top: 65px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+@media (max-width: 1140px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-area .table td.order-total {
+    padding-right: 15px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .shop-img {
+  width: 100px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  margin-right: 60px;
+}
+
+@media (max-width: 1344px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .shop-img {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1050px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .shop-img {
+    margin-right: 10px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area .qty {
+  width: 75px;
+  height: 45px;
+  text-align: left;
+  padding: 0 12px;
+  border: 1px solid #4E4E4E;
+}
+
+@media (max-width: 1476px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .qty {
+    width: 50px;
+    padding: 0 6px;
+  }
+}
+
+@media (max-width: 896px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area .qty {
+    width: 40px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area input.qtyplus {
+  width: 25px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 1476px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area input.qtyplus {
+    width: 15px;
+  }
+}
+
+@media (max-width: 940px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area input.qtyplus {
+    width: 10px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-area input.qtyminus {
+  width: 25px;
+  height: 35px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media (max-width: 1476px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area input.qtyminus {
+    width: 15px;
+  }
+}
+
+@media (max-width: 940px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-area input.qtyminus {
+    width: 10px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area {
+    display: block;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone {
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  border: #A8A8A8 solid 1px;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-closed-btn {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-image: url("../img/closed.png");
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .shop-img {
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-commodity {
+  margin-bottom: 8px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-amount {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-price, main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 115px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-price {
+  margin-bottom: 18px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-price .order-title {
+  width: 35px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-total {
+  height: 40px;
+  padding-top: 10px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .order-total .order-title {
+  width: 35px;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .bg {
+  background-color: #AFAFAF;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone .qty {
+  width: 130px;
+  height: 35px;
+  text-align: center;
+  padding: 0 12px;
+  border: 1px solid #4E4E4E;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone input.qtyplus {
+  width: 25px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 1000;
+}
+
+main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area .my-order-menu-finished-phone input.qtyminus {
+  width: 25px;
+  height: 35px;
+  font-size: 24px;
+  font-weight: 1000;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1199px) {
+  main .orderfillout-container .my-order-area .my-order-information-area {
+    display: block;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-content {
+  margin-left: 45px;
+}
+
+@media (max-width: 1199px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-content {
+    margin-left: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-name {
+    display: block;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-phone-number input {
+  margin-left: 18px;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-phone-number input {
+    margin-left: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-address {
+    display: block;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-address input {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-address input {
+    margin-bottom: 40px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content input {
+  margin-left: 24px;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content input {
+    margin-left: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method {
+  width: 100%;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex {
+  width: 100%;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex span {
+  width: 100px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form {
+  width: 100%;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form select#methods {
+  width: 89%;
+  height: 34px;
+  margin-left: 34px;
+  margin-bottom: 30px;
+  color: #7F7F7F;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+  outline: #4D4D4D solid 1px;
+  padding: 0 15px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form select#methods:focus {
+  outline: #E0C551 solid 2px;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form select#methods {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form select#methods {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("../img/option.png") no-repeat 97.5% center transparent;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-number input {
+  margin-left: 32px;
+  margin-bottom: 46px;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-number input {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-number input {
+    margin-bottom: 40px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-check {
+  position: relative;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-check .discount-check {
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  color: #E0C551;
+  background-color: #FFFFFF;
+  outline: #E0C551 solid 1px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-check .discount-check:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #E0C551;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-check .discount-check {
+    position: static;
+    margin-left: calc(50% - 100px);
+  }
+}
+
+@media (max-width: 1199px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt {
+    margin-bottom: 35px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-editor {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-editor {
+    margin-bottom: 40px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-company input, main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-editor input {
+  margin-left: 30px;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-company input, main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-editor input {
+    margin-left: 0px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information {
+  line-height: 1;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  margin-top: 125px;
+}
+
+@media (max-width: 1199px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-information {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-information {
+    width: 250px;
+    position: static;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-total, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .shipping, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-number, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .final-total {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-total, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .shipping, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-number, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .final-total {
+    margin-bottom: 15px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total {
+  margin-bottom: 65px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total {
+    margin-bottom: 24px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .final-total .order-content {
+  color: #4D4D4D;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-title {
+  width: 80px;
+  color: #4D4D4D;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin-right: 8px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-total .NT, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .shipping .NT, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .final-total .NT {
+  margin-left: 30px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total .NT {
+  margin-left: 22px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total .NT {
+    margin-left: 23px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-content {
+  width: 150px;
+  text-align: right;
+  color: #808080;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-content {
+    width: 120px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-content .price {
+  margin-left: auto;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 1699px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-check {
+    width: 200px;
+    display: block;
+    margin-left: calc(100% - 200px);
+  }
+}
+
+@media (max-width: 1199px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-check {
+    width: 424px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-check {
+    width: 200px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-check .pay {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  color: #E0C551;
+  background-color: #FFFFFF;
+  outline: #E0C551 solid 1px;
+  margin-right: 15px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-check .pay:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #E0C551;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area .my-order-check .pay {
+    margin-bottom: 15px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-check .back {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  color: #E0C551;
+  background-color: #FFFFFF;
+  outline: #E0C551 solid 1px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area .my-order-check .back:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #E0C551;
+  color: #FFFFFF;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area input {
+  width: 76%;
+  height: 34px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: #4D4D4D solid 1px;
+  margin-bottom: 30px;
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area input:focus {
+  outline: #E0C551 solid 2px !important;
+}
+
+@media (max-width: 1911px) {
+  main .orderfillout-container .my-order-area .my-order-information-area input {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .orderfillout-container .my-order-area .my-order-information-area input {
+    margin-bottom: 15px;
+  }
+}
+
+main .orderfillout-container .my-order-area .my-order-information-area input[placeholder] {
+  font-size: 16px;
+  color: #7F7F7F;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  main .col-md-12.col-xl-6 {
+    padding: 0;
+  }
+}
+
+main .space {
+  display: contents;
+}
+
+@media (max-width: 767px) {
+  main .space {
+    display: none;
+  }
+}
+
+main .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1911px) {
+  main .flex {
+    display: block;
+  }
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+.div-shadow {
+  -webkit-box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 767px) {
+  .div-shadow {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.padding-left {
+  padding-left: 0;
+}
+
+@media (max-width: 1199px) {
+  .padding-left {
+    padding-right: 0;
+  }
+}
+
+.padding-right {
+  padding-right: 0;
+}
+
+@media (max-width: 1199px) {
+  .padding-right {
+    padding-left: 0;
+  }
+}
+
+.text {
+  width: 80px;
+  text-align-last: justify;
+}
+
+@media (max-width: 767px) {
+  .text {
+    width: 32px;
+    text-align-last: auto;
+  }
+}
+
+.text-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=orderfillout.css.map */
