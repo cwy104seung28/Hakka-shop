@@ -10,7 +10,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main {
     width: 100%;
   }
@@ -32,7 +32,7 @@ main .shop-container {
   margin-bottom: 33px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container {
     margin-top: 25px;
     margin-bottom: 40px;
@@ -85,7 +85,7 @@ main .shop-container .shop-container-RWD {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD {
     max-width: calc(136px * 5 + 25px);
   }
@@ -124,7 +124,7 @@ main .shop-container .shop-container-RWD .shop-heading {
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD .shop-heading {
     margin-bottom: 20px;
     font-size: 16px;
@@ -150,7 +150,7 @@ main .shop-container .shop-container-RWD .shop-heading .shop-heading-text .shop-
   height: 28px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD .shop-heading .shop-heading-text .shop-heading-box {
     width: 7px;
     height: 14px;
@@ -162,7 +162,7 @@ main .shop-container .shop-container-RWD .shop-heading .shop-heading-more {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD .shop-heading .shop-heading-more {
     width: 85px;
     font-size: 14px;
@@ -270,7 +270,7 @@ main .shop-container .shop-container-RWD .shop-content-container .page .shop-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD .shop-content-container .page .shop-content .shop-content-name-price {
     margin-top: 10px;
     text-align: left;
@@ -291,7 +291,7 @@ main .shop-container .shop-container-RWD .shop-content-container .page .shop-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD .shop-content-container .page .shop-content .shop-content-name-price .shop-content-name {
     color: #4D4D4D;
     font-size: 10px;
@@ -314,7 +314,7 @@ main .shop-container .shop-container-RWD .shop-content-container .page .shop-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-container .shop-container-RWD .shop-content-container .page .shop-content .shop-content-name-price .shop-content-price {
     color: #909090;
     font-size: 8px;
@@ -340,7 +340,7 @@ main nav {
   margin-bottom: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main nav {
     display: none;
   }
@@ -371,7 +371,7 @@ main .shop-more {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .shop-more {
     display: block;
   }
@@ -407,7 +407,7 @@ main .page-link:focus {
           box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .div-shadow {
     -webkit-box-shadow: none;
             box-shadow: none;

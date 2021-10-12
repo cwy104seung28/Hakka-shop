@@ -11,7 +11,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main {
     width: 100%;
   }
@@ -22,7 +22,7 @@ main .register-container {
   width: 72%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container {
     width: 87.5%;
     margin: 20px auto 100px;
@@ -41,7 +41,7 @@ main .register-container .shop-heading {
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-heading {
     margin-bottom: 20px;
     font-size: 18px;
@@ -66,7 +66,7 @@ main .register-container .shop-heading .shop-heading-text .shop-heading-box {
   height: 28px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-heading .shop-heading-text .shop-heading-box {
     width: 8px;
     height: 16px;
@@ -89,7 +89,7 @@ main .register-container .shop-heading .shop-more {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-heading .shop-more {
     font-size: 16px;
     letter-spacing: 2px;
@@ -121,7 +121,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   margin-bottom: 35px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content {
     font-size: 14px;
   }
@@ -141,7 +141,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .email {
     margin-bottom: 20px;
   }
@@ -187,7 +187,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .password {
     letter-spacing: 4px;
     margin-bottom: 20px;
@@ -215,7 +215,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   background-color: #C10000;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .password .forget-password {
     width: 75px;
     height: 25px;
@@ -261,7 +261,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .verification {
     letter-spacing: 4px;
     margin-bottom: 20px;
@@ -326,13 +326,13 @@ main .register-container .shop-register-area .email-register .email-register-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .regulation {
     margin: 20px auto 20px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .regulation .regulation-text {
     font-size: 14px;
   }
@@ -387,7 +387,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .regulation .register-btn {
     margin: 20px calc(50% - 100px) 0;
     font-size: 16px;
@@ -416,7 +416,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   margin-bottom: 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .other-link {
     width: 164px;
     margin: 0 auto 30px;
@@ -441,7 +441,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   color: #120561;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .message {
     width: 200px;
     text-align: center;
@@ -459,7 +459,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   outline: #E0C551 solid 1px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .message .login {
     margin: 15px auto 0;
   }
@@ -476,7 +476,7 @@ main .register-container .shop-register-area .email-register .email-register-con
   outline: #E0C551 solid 1px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .email-register .email-register-content form .message .login a {
     font-size: 16px;
   }
@@ -578,7 +578,7 @@ main .register-container .shop-register-area .social-register .social-register-c
   background-color: #E0C551;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list a {
     padding-top: 22.5px;
     font-size: 16px;
@@ -591,7 +591,7 @@ main .register-container .shop-register-area .social-register .social-register-c
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .social-register .social-register-content .social-menu .social-list {
     height: 70px;
   }
@@ -609,7 +609,7 @@ main .register-container .shop-register-area .shop-register-heading {
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .shop-register-heading {
     margin-bottom: 20px;
     font-size: 16px;
@@ -631,7 +631,7 @@ main .register-container .shop-register-area .shop-register-heading .shop-regist
   font-weight: 800;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .register-container .shop-register-area .shop-register-heading .shop-register-heading-text {
     padding-top: 5px;
   }
@@ -657,7 +657,7 @@ main .using-regulation-container .using-regulation {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .using-regulation-container .using-regulation {
     padding: 0 10px 20px;
     outline: #E0C551 solid 10px;
@@ -674,7 +674,7 @@ main .using-regulation-container .using-regulation .using-title {
   letter-spacing: 1px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .using-regulation-container .using-regulation .using-title {
     font-size: 18px;
   }
@@ -688,7 +688,7 @@ main .using-regulation-container .using-regulation .using-content {
   overflow: scroll;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .using-regulation-container .using-regulation .using-content {
     font-size: 14px;
   }
@@ -730,7 +730,7 @@ main .login-container .login {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .login-container .login {
     padding: 0 10px 20px;
     outline: #E0C551 solid 10px;
@@ -747,7 +747,7 @@ main .login-container .login .login-title {
   letter-spacing: 1px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .login-container .login .login-title {
     font-size: 18px;
   }
@@ -795,7 +795,7 @@ main .login-container .login .login-content button a {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .login-container .login .login-content button a {
     font-size: 16px;
     margin: 15px auto 0;
@@ -873,7 +873,7 @@ main .using-regulation-container.lightbox-target:target .lightbox-content {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .using-regulation-container.lightbox-target:target .lightbox-content {
     width: 95%;
     height: 480px;
@@ -944,7 +944,7 @@ main .login-container.lightbox-target:target .lightbox-content {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .login-container.lightbox-target:target .lightbox-content {
     width: 95vw;
   }
@@ -1001,7 +1001,7 @@ button:focus {
           box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .div-shadow {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1078,7 +1078,7 @@ br {
   margin-right: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .text {
     width: auto;
   }
@@ -1090,7 +1090,7 @@ br {
   display: inline-block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .text:after {
     content: none;
   }

@@ -13,7 +13,7 @@ body aside {
   position: fixed;
   z-index: 2;
   overflow-y: scroll;
-  background: url("../img/aside-bg.png") no-repeat 45% 60% #FFFFFF;
+  background: url("../img/aside-bg.png") no-repeat 45% 60%;
 }
 
 @media (max-width: 1213px) {

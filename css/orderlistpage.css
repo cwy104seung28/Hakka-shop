@@ -11,7 +11,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main {
     width: 100%;
   }
@@ -28,7 +28,7 @@ main .orderlist-container {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container {
     width: 87.5%;
     margin: 20px auto 100px;
@@ -47,7 +47,7 @@ main .orderlist-container .shop-heading {
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .shop-heading {
     margin-bottom: 20px;
     font-size: 18px;
@@ -77,7 +77,7 @@ main .orderlist-container .shop-heading .shop-heading-text .shop-heading-box {
   height: 28px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .shop-heading .shop-heading-text .shop-heading-box {
     width: 8px;
     height: 16px;
@@ -101,7 +101,7 @@ main .orderlist-container .shop-heading .shop-more {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .shop-heading .shop-more {
     font-size: 16px;
     letter-spacing: 2px;
@@ -126,7 +126,7 @@ main .orderlist-container .my-order-area .my-order-heading-area {
           justify-content: space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .my-order-heading-area {
     display: block;
   }
@@ -144,7 +144,7 @@ main .orderlist-container .my-order-area .my-order-heading-area .my-order-headin
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading {
     margin-bottom: 20px;
     font-size: 16px;
@@ -166,7 +166,7 @@ main .orderlist-container .my-order-area .my-order-heading-area .my-order-headin
   font-weight: 800;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-text {
     padding-top: 5px;
   }
@@ -192,7 +192,7 @@ main .orderlist-container .my-order-area .my-order-heading-area .condition-searc
   color: #FFFFFF;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .my-order-heading-area .condition-search-btn {
     font-size: 16px;
     margin: 0 calc(50% - 100px) 20px;
@@ -229,7 +229,7 @@ main .orderlist-container .my-order-area .condition-search-area .condition-searc
   font-size: 24px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-heading {
     margin-left: 20px;
     font-size: 18px;
@@ -251,7 +251,7 @@ main .orderlist-container .my-order-area .condition-search-area .condition-searc
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content {
     margin-left: 20px;
     margin-right: 20px;
@@ -268,7 +268,7 @@ main .orderlist-container .my-order-area .condition-search-area .condition-searc
   margin-bottom: 30px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-number {
     margin-bottom: 20px;
   }
@@ -319,7 +319,7 @@ main .orderlist-container .my-order-area .condition-search-area .condition-searc
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-area .condition-search-area .condition-search .condition-search-content .input .order-date input {
     width: 44%;
   }
@@ -460,7 +460,7 @@ main .orderlist-container .my-order-menu-area {
   font-size: 18px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-menu-area {
     display: none;
   }
@@ -619,7 +619,7 @@ main .orderlist-container nav {
   margin-top: 75px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container nav {
     display: none;
   }
@@ -638,7 +638,7 @@ main .orderlist-container .my-order-phone-menu-area {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlist-container .my-order-phone-menu-area {
     display: block;
   }
@@ -731,7 +731,7 @@ main input {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main input {
     height: 22px;
   }
@@ -743,7 +743,7 @@ main input[placeholder] {
   letter-spacing: 2px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main input[placeholder] {
     font-size: 12px;
   }
@@ -782,7 +782,7 @@ button:focus {
           box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .div-shadow {
     -webkit-box-shadow: none;
             box-shadow: none;

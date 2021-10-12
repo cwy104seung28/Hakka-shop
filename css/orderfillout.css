@@ -11,7 +11,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main {
     width: 100%;
   }
@@ -28,7 +28,7 @@ main .orderfillout-container {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container {
     width: 87.5%;
     margin: 20px auto 0px;
@@ -47,7 +47,7 @@ main .orderfillout-container .shop-heading {
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .shop-heading {
     margin-bottom: 20px;
     font-size: 18px;
@@ -67,7 +67,7 @@ main .orderfillout-container .shop-heading .shop-heading-text {
   margin-right: 25px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .shop-heading .shop-heading-text {
     margin-right: 10px;
   }
@@ -81,7 +81,7 @@ main .orderfillout-container .shop-heading .shop-heading-text .shop-heading-box 
   height: 28px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .shop-heading .shop-heading-text .shop-heading-box {
     width: 8px;
     height: 16px;
@@ -103,7 +103,7 @@ main .orderfillout-container .shop-heading .shop-more {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .shop-heading .shop-more {
     font-size: 16px;
     letter-spacing: 2px;
@@ -117,7 +117,7 @@ main .orderfillout-container .shop-heading .shop-more img {
   padding-bottom: 5px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .shop-heading .shop-more img {
     margin-right: 10px;
     width: 7.5%;
@@ -133,7 +133,7 @@ main .orderfillout-container .my-order-area {
   margin-bottom: 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area {
     font-size: 14px;
   }
@@ -151,7 +151,7 @@ main .orderfillout-container .my-order-area .my-order-heading {
   margin-bottom: 35px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-heading {
     margin-bottom: 15px;
     font-size: 16px;
@@ -171,7 +171,7 @@ main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-
   margin-right: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-text {
     margin-right: 17px;
     padding-top: 5px;
@@ -186,7 +186,7 @@ main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-
   display: flex;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message {
     font-size: 12px;
   }
@@ -204,7 +204,7 @@ main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-
   outline: #4D4D4D solid 1px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"] + label {
     width: 12px;
     height: 12px;
@@ -215,7 +215,7 @@ main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-
   background: url("../img/checked.png") center no-repeat;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-heading .my-order-heading-message input[type="checkbox"]:checked + label {
     background-size: 85%;
   }
@@ -225,7 +225,7 @@ main .orderfillout-container .my-order-area .my-order-menu-finished-area {
   margin-bottom: 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-menu-finished-area {
     display: none;
   }
@@ -529,7 +529,7 @@ main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-menu-finished-phone-area {
     display: block;
   }
@@ -686,7 +686,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   margin-bottom: 80px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-sending .my-order-content .my-order-address input {
     margin-bottom: 40px;
   }
@@ -743,7 +743,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-payment-method .flex form select#methods {
     display: block;
     margin-bottom: 15px;
@@ -768,7 +768,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-payment .my-order-discount-number input {
     margin-bottom: 40px;
   }
@@ -815,7 +815,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   margin-bottom: 80px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-receipt .my-order-receipt-editor {
     margin-bottom: 40px;
   }
@@ -857,7 +857,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-information {
     width: 250px;
     position: static;
@@ -880,7 +880,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   margin-bottom: 24px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-total, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .shipping, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-number, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total, main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .final-total {
     margin-bottom: 15px;
   }
@@ -890,7 +890,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   margin-bottom: 65px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total {
     margin-bottom: 24px;
   }
@@ -916,7 +916,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   margin-left: 22px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .discount-total .NT {
     margin-left: 23px;
   }
@@ -929,7 +929,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   letter-spacing: 2px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-information .order-content {
     width: 120px;
   }
@@ -964,7 +964,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-check {
     width: 200px;
   }
@@ -989,7 +989,7 @@ main .orderfillout-container .my-order-area .my-order-information-area .my-order
   color: #FFFFFF;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area .my-order-check .pay {
     margin-bottom: 15px;
   }
@@ -1035,7 +1035,7 @@ main .orderfillout-container .my-order-area .my-order-information-area input:foc
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderfillout-container .my-order-area .my-order-information-area input {
     margin-bottom: 15px;
   }
@@ -1047,7 +1047,7 @@ main .orderfillout-container .my-order-area .my-order-information-area input[pla
   letter-spacing: 1px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .col-md-12.col-xl-6 {
     padding: 0;
   }
@@ -1057,7 +1057,7 @@ main .space {
   display: contents;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .space {
     display: none;
   }
@@ -1094,7 +1094,7 @@ select:focus {
           box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .div-shadow {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1126,7 +1126,7 @@ select:focus {
   text-align-last: justify;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .text {
     width: 32px;
     text-align-last: auto;

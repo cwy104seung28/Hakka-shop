@@ -38,7 +38,7 @@ $(document).ready(function () {
 
     document.onreadystatechange = function () {
         if (document.readyState == "complete") {
-            if ( window.innerWidth > 767){
+            if ( window.innerWidth > 768){
                 if(information_H_1 < 258){
                     $('#about-shop-1 .about-shop-menu').addClass('no_visible');
                 }
@@ -55,7 +55,7 @@ $(document).ready(function () {
         
                 };
             }
-            else if( window.innerWidth > 767){
+            else if( window.innerWidth > 768){
                 if(information_H_1 < 74){
                     $('#about-shop-1 .about-shop-menu').addClass('no_visible');
                 }
@@ -71,7 +71,7 @@ $(document).ready(function () {
                     $('#about-shop-2 .about-shop-menu').removeClass('no_visible');
                 };
             }
-            if (window.innerWidth < 1753 && window.innerWidth > 767) {
+            if (window.innerWidth < 1753 && window.innerWidth > 768) {
                 $(".nav-slider-container .swiper-wrapper .swiper-slide").width(window.innerWidth * 0.674);
                 $(".nav-slider-container .swiper-wrapper .swiper-slide").height(window.innerWidth * 0.284);
                 swiper.update();
@@ -84,7 +84,7 @@ $(document).ready(function () {
         }
     };
     window.onresize = function () {
-        if ( window.innerWidth > 767){
+        if ( window.innerWidth > 768){
             if(information_H_1 < 258){
                 $('#about-shop-1 .about-shop-menu').addClass('no_visible');
             }
@@ -115,7 +115,7 @@ $(document).ready(function () {
                 $('#about-shop-2 .about-shop-menu').removeClass('no_visible');
             }
         }
-        if (window.innerWidth < 1753 && window.innerWidth > 767) {
+        if (window.innerWidth < 1753 && window.innerWidth > 768) {
             $(".nav-slider-container .swiper-wrapper .swiper-slide").width(window.innerWidth * 0.674);
             $(".nav-slider-container .swiper-wrapper .swiper-slide").height(window.innerWidth * 0.284);
             swiper.update();

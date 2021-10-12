@@ -11,7 +11,7 @@ main {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main {
     width: 100%;
   }
@@ -28,7 +28,7 @@ main .orderlistfininshed-container {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container {
     width: 87.5%;
     margin: 20px auto 0px;
@@ -47,7 +47,7 @@ main .orderlistfininshed-container .shop-heading {
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .shop-heading {
     margin-bottom: 20px;
     font-size: 18px;
@@ -77,7 +77,7 @@ main .orderlistfininshed-container .shop-heading .shop-heading-text .shop-headin
   height: 28px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .shop-heading .shop-heading-text .shop-heading-box {
     width: 8px;
     height: 16px;
@@ -101,7 +101,7 @@ main .orderlistfininshed-container .shop-heading .shop-more {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .shop-heading .shop-more {
     font-size: 16px;
     letter-spacing: 2px;
@@ -127,7 +127,7 @@ main .orderlistfininshed-container .my-order-area .my-order-heading-area {
           justify-content: space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-heading-area {
     display: block;
   }
@@ -145,7 +145,7 @@ main .orderlistfininshed-container .my-order-area .my-order-heading-area .my-ord
           align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-heading-area .my-order-heading {
     margin-bottom: 20px;
     font-size: 16px;
@@ -167,7 +167,7 @@ main .orderlistfininshed-container .my-order-area .my-order-heading-area .my-ord
   font-weight: 800;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-heading-area .my-order-heading .my-order-heading-text {
     padding-top: 5px;
   }
@@ -193,7 +193,7 @@ main .orderlistfininshed-container .my-order-area .my-order-heading-area .condit
   color: #FFFFFF;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-heading-area .condition-search-btn {
     margin: 0 calc(50% - 100px) 20px;
   }
@@ -215,7 +215,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area {
     margin-left: 0px;
   }
@@ -237,7 +237,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .order-
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .order-number {
     display: block;
     text-align: center;
@@ -257,7 +257,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .order-
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .order-number .order-line {
     display: none;
   }
@@ -288,7 +288,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .order-
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .order-number .order-finish {
     margin: 5px calc(50% - 57px);
   }
@@ -300,7 +300,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .my-ord
   line-height: 2;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content {
     padding-left: 0px;
     padding-top: 27px;
@@ -317,7 +317,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .my-ord
   display: flex;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content div {
     display: block;
     text-align: center;
@@ -338,13 +338,13 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .my-ord
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content .order-title {
     margin: 0 0 3px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content .order-line {
     display: none;
   }
@@ -362,7 +362,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .my-ord
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content .order-content {
     margin: 0 0 9px;
   }
@@ -379,7 +379,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .my-ord
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content .order-name .order-title {
     letter-spacing: 2px;
   }
@@ -412,7 +412,7 @@ main .orderlistfininshed-container .my-order-area .my-order-content-area .my-ord
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-area .my-order-content-area .my-order-content .order-sending .order-search-btn {
     letter-spacing: 2px;
     height: 30px;
@@ -424,7 +424,7 @@ main .orderlistfininshed-container .my-order-menu-finished-area {
   margin-bottom: 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-menu-finished-area {
     display: none;
   }
@@ -572,7 +572,7 @@ main .orderlistfininshed-container .my-order-menu-finished-phone-area .my-order-
   margin-bottom: 40px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-menu-finished-phone-area .my-order-menu-finished-phone {
     display: block;
   }
@@ -623,7 +623,7 @@ main .orderlistfininshed-container .my-order-information-area {
   line-height: 1;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-information-area {
     width: 250px;
     position: static;
@@ -648,7 +648,7 @@ main .orderlistfininshed-container .my-order-information-area .order-total, main
           justify-content: space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-information-area .order-total, main .orderlistfininshed-container .my-order-information-area .shipping, main .orderlistfininshed-container .my-order-information-area .discount-number, main .orderlistfininshed-container .my-order-information-area .discount-total, main .orderlistfininshed-container .my-order-information-area .final-total, main .orderlistfininshed-container .my-order-information-area .payment-method {
     margin-bottom: 15px;
   }
@@ -674,7 +674,7 @@ main .orderlistfininshed-container .my-order-information-area .discount-total .N
   margin-left: 22px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-information-area .discount-total .NT {
     margin-left: 23px;
   }
@@ -687,7 +687,7 @@ main .orderlistfininshed-container .my-order-information-area .order-content {
   letter-spacing: 2px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   main .orderlistfininshed-container .my-order-information-area .order-content {
     width: 120px;
   }
@@ -712,7 +712,7 @@ button:focus {
           box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .div-shadow {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -734,7 +734,7 @@ button:focus {
   margin-right: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .text {
     width: 72px !important;
   }

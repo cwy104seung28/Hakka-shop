@@ -20,6 +20,7 @@ main .nav-slider-container {
   margin-top: 25px;
   margin-bottom: 78px;
   position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 954px) {
